@@ -6,12 +6,7 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import com.example.f55119028_kuis.databinding.ActivityMainBinding;
 
-
 public class MainActivity extends AppCompatActivity {
-
-    private String[] dataName;
-    private String[] dataDescription;
-    private TypedArray dataPhoto;
 
     private ActivityMainBinding binding;
 
@@ -31,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         binding.txtName2.setText("Ahmad Yani");
         binding.txtDescription2.setText("Jenderal TNI Anumerta Ahmad Yani (juga dieja Achmad Yani; lahir di Purworejo, Jawa Tengah, 19 Juni 1922");
         // Data Maulana Adnan Khalid
-        binding.imgPhoto3.setImageBitmap(BitmapFactory.decodeResource(getResources(),R.drawable.maul));
-        binding.txtName3.setText("Maulana Adnan Khalid");
+        binding.imgPhoto3.setImageBitmap(BitmapFactory.decodeResource(getResources(),R.drawable.maulana));
+        binding.txtName3.setText("Maulana Adnan");
         binding.txtDescription3.setText("Hello!.. Nama Saya Maulana Adnan Khalid, Stambuk F55119028.. Saya tinggal di jalan lorong gelatik No.23 Palu");
     }
 }
